@@ -1,11 +1,12 @@
 # Support for using Netdata
 
-Welcome to the Netdata Community! It's great to have you. Netdata has the Open-Source at it's core and we couldn't have made it thus far without people like you. 
+Welcome to the Netdata community! It's great to have you. Because Netdata is open-source at its core, we're always listening to community members just like you for suggestions on how we could make Netdata even better.
 
 If you need help with Netdata:
-1) Visit [Netdata Learn](https://learn.netdata.cloud/), our education portal. We take high-pride in maintaining high-quality reference documentation and guides. 
-2) Create a new topic on our Community Forums, in the [Support Category](https://community.netdata.cloud/c/support/13/none).
-   1) If you are unsure how to ask a good question, no worries. We have created a [topic](https://community.netdata.cloud/t/how-to-submit-a-good-question/469/7) full of good tips on how to make it easier for us to help you.
+
+- Visit [Netdata Learn](https://learn.netdata.cloud/), our education portal. We take pride in maintaining high-quality [documentation](https://learn.netdata.cloud/docs) and [guides](ttps://learn.netdata.cloud/guides). 
+- Create a new topic on our community forums, in the [**Support** category](https://community.netdata.cloud/c/support/13/none).
+  - If you're not sure how to ask a good question, check out the [topic](https://community.netdata.cloud/t/how-to-submit-a-good-question/469/7) we created of tips to help us help you.
 
 
    
