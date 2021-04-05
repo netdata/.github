@@ -99,9 +99,9 @@ As Netdata's features grow, we need to clearly explain how each feature works an
 
 We also need to produce beginner-level tutorials on using Netdata to monitor production-level systems, from databases to web-servers and Kubernetes clusters. Whatever you use for production, it's a perfect case-study for Netdata!
 
-Start with the [guide for contributing to documentation](/docs/contributing/contributing-documentation.md), and then review the [documentation style guide](/docs/contributing/style-guide.md) for specifics on how we write our documentation.
+Start with the [Guide for contributing to documentation](https://learn.netdata.cloud/contribute/documentation), and then review the [documentation style guide]https://learn.netdata.cloud/contribute/style-guide) for specifics on how we write our documentation.
 
-You can submit your guide on our [Community Guides](https://community.netdata.cloud/c/community-guides/17) category and get initial feedback from the community and the Netdata team. Afterwards, we can work together to incorporate the guide into the main corpus of the documentation. Again, we can't commit to do that, since every piece of documentation(such as a guide) increases the cost of maintenance.
+You can also your guide on our [Community Guides](https://community.netdata.cloud/c/community-guides/17) category and get initial feedback from the community and the Netdata team. Afterwards, we can work together to incorporate the guide into the main corpus of the documentation. Again, we can't commit to do that, since every piece of documentation(such as a guide) increases the cost of maintenance.
 
 For that reason, we prefer to start with the Community Forums, where people can create any guide that they feel like sharing with the rest of the Netdata Community. If we believe that the use-case has value for the broader Netdata Community (e.g it's not about an edge-case), then it is possible that we may ask you to work with us and publish it in [Netdata Learn](Https://learn.netdata.cloud), our education portal.
 
@@ -172,9 +172,9 @@ To contribute a new or improved feature:
    4) After running `netdata-install` once, you can instead using `netdata-build`. The first commands downloads some additional dependencies from the Internet. Once you have done it once, you don't need to repeat it. `netdata-build` is much faster than `netdata-install`. 
    5) In case your contribution is in the `netdata-installer.sh` script itself, you will need to use exclusively `netdata-install` to verify that it works as expected.
 5) **Optional:** Valgrind to verify that there are no memory leaks in Netdata after your changes. If you are not familiar with the software, no worries. It's optional!
-6) Build Netdata one last time using `netdata-install` to verify that everything works as expected.
+6) Build Netdata one last time using `netdata-build` to verify that everything works as expected.
 7) Commit your changes to the branch (e.g "apache-collector") and push to GitHub
-8) Make a **draft PR** from that branch to the master branch of the `netdata/netdata` repository.
+8) Make a **draft PR** from that branch to the master branch of the [netdata/netdata](https://github.com/netdata/netdata) repository.
 
 ### Contribute a new collector
 
@@ -196,7 +196,7 @@ Although we understand that you will want to contribute with the framework that 
 
 To contribute a new collector (or improve an existing one):
 1) Fork the [netdata/netdata](https://github.com/netdata/netdata) repository
-   1) If it's a Golang repository, fork the [netdata/go.d](https://github.com/netdata/go.d) repository
+   1) If it's a Golang repository, fork the [netdata/go.d](https://github.com/netdata/go.d.plugin) repository
 2) Download the forked repository locally
 3) Open the directory using VS Code
 4) Develop ⛏
@@ -204,13 +204,15 @@ To contribute a new collector (or improve an existing one):
    2) Create a new branch and name it after the feature you are developing (e.g "apache-collector"). Switch to that branch.
    3) For Python collectors:
       1) Follow the contribution guidelines on the [python.d](https://learn.netdata.cloud/docs/agent/collectors/python.d.plugin) documentation.
-      2) Follow the Guide we have released: [How to contribute a Python collector]
+      2) Follow the Guide we have released: [How to contribute a Python collector](https://learn.netdata.cloud/guides/python-collector)
    4) For Golang collectors:
       1) Follow the contribution guidelines on the [go.d](https://learn.netdata.cloud/docs/agent/collectors/go.d.plugin) documentation.
       2) Follow the Guide we have released: [How to develop a go.d collector](https://learn.netdata.cloud/docs/agent/collectors/go.d.plugin/docs/how-to-write-a-module).
    5) For Shell/Bash
       1) Follow the guidelines on the [charts.d](https://learn.netdata.cloud/docs/agent/collectors/charts.d.plugin).
-
+5) Follow the PR guidelines of the respected collector and make a PR to the respected repository:
+   1) [netdata/netdata](https://github.com/netdata/netdata) for Python, Shell, and C
+   2) [netdata/go.d.plugin](https://github.com/netdata/go.d.plugin) for Golang
 
 ### Contribute a new exporting engine destination 
 
@@ -261,17 +263,11 @@ So, Netdata requires all metrics to have a meaning at the time they are collecte
 
 Netdata is a distributed monitoring application. A few basic features can become quite complicated for such applications. We may reject features that alter or influence the nature of Netdata, though we usually discuss the requirements with contributors and help them adapt their code to be better suited for Netdata.
 
-#### Operating systems supported
-
-Netdata should be running everywhere, on every production system out there.
-
-Although we focus on **supported operating systems**, we still want Netdata to run even on non-supported systems. This, of course, may require some more manual work from the users (to prepare their environment, or enable certain flags, etc).
-
-If your contributions limit the number of operating systems supported we will request from you to improve it.
-
 #### Documentation
 
 Your contributions should be bundled with related documentation to help users understand how to use the features you introduce.
+
+Before you contribute any documentation for your feature, please take a look at [contributing documentation](#improve-documentation).
 
 #### Maintenance
 
