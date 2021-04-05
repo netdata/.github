@@ -1,7 +1,7 @@
 
 blank_issues_enabled: false
 contact_links:
-  - name: Help with the product
+  - name: Help with installing, configuring and using Netdata.
     url: https://community.netdata.cloud/c/support/13
     about: We offer community-driven support in the respective category of the community forums.
   -  name: Help with developing for the Netdata Agent and it's plugins
