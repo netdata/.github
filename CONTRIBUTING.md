@@ -17,7 +17,7 @@ Specific GitHub issues we need help with can be seen [here](https://github.com/n
 
 ## Give Netdata a GitHub star
 
-This is the minimum open-source users should contribute back to the projects they use. Github stars help the project gain visibility, stand out. So, if you use Netdata, consider pressing that button. **It really matters**.
+GitHub Stars are more important that you may think. It helps us gain visibility as a project and attract awesome contributors. We thank each and every star gazer, since we consider them, in a sense, contributors. If you enjoy the project, please do consider giving as a 🌟.
 
 ## Join the Netdata Community
 
