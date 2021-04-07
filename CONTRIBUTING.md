@@ -163,13 +163,13 @@ If you want to develop or improve a feature for the Netdata Agent core functiona
 
 To contribute a new or improved feature:
 1) Fork the [netdata/netdata](https://github.com/netdata/netdata) repository
-2) Download the forked repository locally
+2) Download the forked repository locally: `git clone https://github.com/odyslam/netdata --recursive`. Pay attention to the `--recursive` flag which is required to download all the submodules as well.
 3) Open the directory using VS Code
 4) Develop ⛏
    1) Authenticate with GitHub from inside the container
    2) Create a new branch and name it after the feature you are developing (e.g "apache-collector"). Switch to that branch.
    3) After you are done developing, you can easily build Netdata from source using the command: `netdata-install`. This alias loads the `netdata-installer.sh` script with a few additional debugging flags to facilitate you in the your work.
-   4) After running `netdata-install` once, you can instead using `netdata-build`. The first commands downloads some additional dependencies from the Internet. Once you have done it once, you don't need to repeat it. `netdata-build` is much faster than `netdata-install`. 
+   4) After running `netdata-install` once, you can instead build Netdata from source using `netdata-build`. The first command downloads some additional dependencies from the Internet. Once you have done it, you don't need to repeat it. `netdata-build` is much faster than `netdata-install`. 
    5) In case your contribution is in the `netdata-installer.sh` script itself, you will need to use exclusively `netdata-install` to verify that it works as expected.
 5) **Optional:** Valgrind to verify that there are no memory leaks in Netdata after your changes. If you are not familiar with the software, no worries. It's optional!
 6) Build Netdata one last time using `netdata-build` to verify that everything works as expected.
@@ -196,8 +196,9 @@ Although we understand that you will want to contribute with the framework that 
 
 To contribute a new collector (or improve an existing one):
 1) Fork the [netdata/netdata](https://github.com/netdata/netdata) repository
-   1) If it's a Golang repository, fork the [netdata/go.d](https://github.com/netdata/go.d.plugin) repository
-2) Download the forked repository locally
+   1) If it's the Golang repository, fork the [netdata/go.d](https://github.com/netdata/go.d.plugin) repository
+2) Download the forked repository locally: `git clone https://github.com/odyslam/netdata --recursive`. Pay attention to the `--recursive` flag which is required to download all the submodules as well.
+   1) If it's about Go.d: `git clone https://github.com/odyslam/go.d`.
 3) Open the directory using VS Code
 4) Develop ⛏
    1) Authenticate with GitHub from inside the container
