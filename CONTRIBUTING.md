@@ -8,10 +8,10 @@ sidebar_label: "Contributing handbook"
 
 Thank you for considering contributing to Netdata.
 
-We love to receive contributions. Maintaining a platform for monitoring everything imaginable requires a broad understanding of a plethora of technologies, systems and applications. We rely on community contributions and user feedback to continue providing the best monitoring solution out there.
+Maintaining a platform for monitoring everything imaginable requires a broad understanding of a plethora of technologies, systems, and applications. We rely on community contributions and user feedback to continue providing the best monitoring solution out there.
 
 There are many ways to contribute, with varying requirements of skills, explained in detail in the following sections.
-Specific GitHub issues we need help with can be seen [here](https://github.com/netdata/netdata/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22help+wanted%22). Some of them are also labeled as "good first issue".
+One good way to start is searching through [specific GitHub issues](https://github.com/netdata/netdata/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22help+wanted%22) we need help with. Some of them are also labeled as "good first issue".
 
 # All Netdata Users
 
@@ -21,39 +21,38 @@ GitHub Stars are more important that you may think. It helps us gain visibility 
 
 ## Join the Netdata Community
 
-We have launched a [discussion board](https://community.netdata.cloud) where you can find many of us.
+We have launched a [discussion forum](https://community.netdata.cloud) where you can find many of us.
 
 ## Spread the word
 
-Community growth allows the project to attract new talent willing to contribute. This talent is then developing new features and improves the project. These new features and improvements attract more users and so on. It is a feedback loop. 
+Community growth allows the project to attract new talent willing to contribute. This talent is then developing new features and improves the project. These new features and improvements attract more users, and so on, in a feedback loop. 
 
- **The more people involved, the faster the project evolves**.
+**The more people involved, the faster the project evolves.**
 
- We have a growing community at our [forums](https://community.netdata.cloud) which can help you spread the word. If you want to talk about Netdata in a local meetup, just create a topic in the "Community" category and we will help you prepare!
+We have a growing community at our [forums](https://community.netdata.cloud) which can help you spread the word. If you want to talk about Netdata in a local meetup, just create a topic in the "Community" category and we'll help you prepare!
 
- We also have a vibrant [Twitter account]([https://](https://twitter.com/linuxnetdata)) and a [reddit channel](https://www.reddit.com/r/netdata).
+We also have a vibrant [Twitter account]([https://](https://twitter.com/linuxnetdata)) and a [subreddit](https://www.reddit.com/r/netdata).
 
 ## Provide feedback
 
-We love feedback. It's what makes us better as developers, professionals and open-source maintainers. It's what makes Netdata better as a product, for everyone, for free!
+We love feedback. It's what makes us better as developers, professionals ,and open-source maintainers. It's what makes Netdata better as a product, for everyone, for free!
 
-If you have any comment about the product, a positive or negative comment, a request, please let us know by making a post at [at Netdata Community](https://community.netdata.cloud/) to discuss it. 
+If you have any comment about the product, a positive or negative comment, a request, please let us know by making a post on [the community forums](https://community.netdata.cloud/) to discuss it.
 
-**We can't commit** that we will address the issue right away, but we will acknowledge your issue, and take notes of it! Although we use an internal Product Roadmap, we take your feedback and feature requests very seriously, so you can rest assured that if a particular feature requests gathers a lot of community votes, it will be prioritized accordingly.
+**We can't commit** that we will address the issue right away, but we will acknowledge your issue, and take notes of it! Although we use an internal product roadmap, we take your feedback and feature requests very seriously, so you can rest assured that if a particular feature requests gathers a lot of community votes, it will be prioritized accordingly.
 
 # Become a Netdata Supporter
 
-Netdata is a complex system, with many integrations for the various  collectors, export destinations and notification endpoints. As a result, we rely on help from "Supporters", users who are willing to **provide feedback** while we implement certain parts of the Netdata Agent. 
+Netdata is a complex system, with many integrations for the various collectors, export destinations, and notification endpoints. As a result, we rely on help from "Supporters," who are kind users willing to **discuss their uses cases** and **provide feedback** while we implement certain new features or capabilities.
 
-Netdata follows a highly opinionated approach to monitoring, offering a zero-configuration experience to users, as we take all the responsibility to organize the metrics into meaningful charts and create sane default alarms for them. This add an additional layer of complexity in the implementation of each integration, since we need 2 things:
+Netdata follows a highly opinionated approach to monitoring, offering a zero-configuration experience to users. We take all the responsibility to organize the metrics into meaningful charts and create useful preconfigured alarms. This add an additional layer of complexity in the implementation of each integration, since we need two things:
+
 1) Domain expertise to organize the metrics into meaningful charts and define sane alarms for them.
-2) Production systems to test the integration on real-life systems before releasing it for the rest of the users.
-
-To cover the **hundreds** of systems that we do, we have relied on kind users who were willing to discuss with us their use-cases while we develop the integrations and then test them on production systems to verify that they are valuable. 
+2) Production systems to test the integration on real-life systems before releasing to users.
 
 > To become a "supporter", simply create a topic in the [Netdata Agent Development & Integrations](https://community.netdata.cloud/c/agent-development/9) category of our community forums.
 
-Let's see the categories for which we are looking for supporters:
+We're looking for supporters in a few categories:
 
 ## Support a collector
 
