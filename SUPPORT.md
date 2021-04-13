@@ -4,7 +4,7 @@ Welcome to the Netdata community! It's great to have you. Because Netdata is ope
 
 If you need help with Netdata:
 
-- Visit [Netdata Learn](https://learn.netdata.cloud/), our education portal. We take pride in maintaining high-quality [documentation](https://learn.netdata.cloud/docs) and [guides](ttps://learn.netdata.cloud/guides). 
+- Visit [Netdata Learn](https://learn.netdata.cloud/), our education portal. We take pride in maintaining high-quality [documentation](https://learn.netdata.cloud/docs) and [guides](https://learn.netdata.cloud/guides). 
 - Create a new topic on our community forums, in the [**Support** category](https://community.netdata.cloud/c/support/13/none).
   - If you're not sure how to ask a good question, check out the [topic](https://community.netdata.cloud/t/how-to-submit-a-good-question/469/7) we created of tips to help us help you.
 
