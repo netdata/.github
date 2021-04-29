@@ -200,7 +200,7 @@ When deciding which framework to use, please consider our approach:
 
 To contribute a new collector (or improve an existing one):
 1. Fork the [netdata/netdata](https://github.com/netdata/netdata) repository
-   1) If it's the Golang repository, fork the [netdata/go.d](https://github.com/netdata/go.d.plugin) repository
+   1. If it's the Golang repository, fork the [netdata/go.d](https://github.com/netdata/go.d.plugin) repository
 2. Download the forked repository locally: `git clone https://github.com/odyslam/netdata --recursive`. Pay attention to the `--recursive` flag which is required to download all the submodules as well.
    1. If it's about Go.d: `git clone https://github.com/odyslam/go.d`.
 3. Open the directory using VS Code
