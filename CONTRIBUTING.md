@@ -333,10 +333,10 @@ The key idea here is to start with a "verb" of what you are doing in the PR.
 
 For good examples have a look at other projects like:
 
-- https://github.com/facebook/react/commits/master
+- https://github.com/facebook/react/commits/main
 - https://github.com/tensorflow/tensorflow/commits/master
 - https://github.com/vuejs/vue/commits/dev
-- https://github.com/microsoft/vscode/commits/master
+- https://github.com/microsoft/vscode/commits/main
 - Also see the Linux Kernel and Git projects as well as good examples.
 
 ### Commit messages when PRs are merged
