@@ -1,10 +1,10 @@
 <!--
 title: "Contributing"
 custom_edit_url: https://github.com/netdata/.github/edit/main/CONTRIBUTING.md
-sidebar_label: "Contributing handbook"
+sidebar_label: "Contribute"
+learn_status: "Published"
+learn_rel_path: "Contribute"
 -->
-
-# Contributing
 
 Thank you for considering contributing to Netdata.
 
@@ -13,17 +13,17 @@ Maintaining a platform for monitoring everything imaginable requires a broad und
 There are many ways to contribute, with varying requirements of skills, explained in detail in the following sections.
 One good way to start is searching through [specific GitHub issues](https://github.com/netdata/netdata/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22help+wanted%22) we need help with. Some of them are also labeled as "good first issue".
 
-# All Netdata Users
+## All Netdata Users
 
-## Give Netdata a GitHub star
+### Give Netdata a GitHub star
 
 GitHub Stars are more important that you may think. It helps us gain visibility as a project and attract awesome contributors. We thank each and every star gazer, since we consider them, in a sense, contributors. If you enjoy the project, please do consider giving as a 🌟.
 
-## Join the Netdata Community
+### Join the Netdata Community
 
 We have launched a [discussion forum](https://community.netdata.cloud) where you can find many of us.
 
-## Spread the word
+### Spread the word
 
 Community growth allows the project to attract new talent willing to contribute. This talent is then developing new features and improves the project. These new features and improvements attract more users, and so on, in a feedback loop. 
 
@@ -33,7 +33,7 @@ We have a growing community at our [forums](https://community.netdata.cloud) whi
 
 We also have a vibrant [Twitter account](https://twitter.com/linuxnetdata) and a [subreddit](https://www.reddit.com/r/netdata).
 
-## Provide feedback
+### Provide feedback
 
 We love feedback. It's what makes us better as developers, professionals ,and open-source maintainers. It's what makes Netdata better as a product, for everyone, for free!
 
@@ -41,7 +41,7 @@ If you have any comment about the product, a positive or negative comment, a req
 
 **We can't commit** that we will address the issue right away, but we will acknowledge your issue, and take notes of it! Although we use an internal product roadmap, we take your feedback and feature requests very seriously, so you can rest assured that if a particular feature requests gathers a lot of community votes, it will be prioritized accordingly.
 
-# Become a Netdata Supporter
+## Become a Netdata Supporter
 
 Netdata is a complex system, with many integrations for the various collectors, export destinations, and notification endpoints. As a result, we rely on help from "Supporters," who are kind users willing to **discuss their uses cases** and **provide feedback** while we implement certain new features or capabilities.
 
@@ -54,7 +54,7 @@ Netdata follows a highly opinionated approach to monitoring, offering a zero-con
 
 We're looking for supporters in a few categories:
 
-## Support a collector
+### Support a collector
 
 Netdata is all about simplicity and meaningful presentation. A "supporter" for a collector assists with the following:
 
@@ -65,7 +65,7 @@ Netdata is all about simplicity and meaningful presentation. A "supporter" for a
 -   Uses the charts and alarms in their day to day work and provides additional feedback.
 -   Requests additional improvements as things change (e.g. new versions of an API are available).
 
-## Support an exporting connector
+### Support an exporting connector
 
  A "supporter" for a connector:
 
@@ -74,7 +74,7 @@ Netdata is all about simplicity and meaningful presentation. A "supporter" for a
 -   Uses the exporter in their day to day work and provides additional feedback, after the backend is delivered.
 -   Requests additional improvements as things change (e.g. new versions of the exporter API are available).
 
-## Support a notification method
+### Support a notification method
 
 A "supporter" for a notification method:
 
@@ -83,7 +83,7 @@ A "supporter" for a notification method:
 -   Requests additional improvements as things change (e.g. new versions of the API are available).
 
 
-## Become an active community member
+### Become an active community member
 
 As the project grows, an increasing share of our time is spent on supporting this community of users on how to use and extend Netdata. Participating actively on our community forums, providing feedback and helping other users out is crucial.
 
@@ -92,18 +92,11 @@ A community is a complex system, a network of people. The only way forward is th
 Every active member is a connection point of a new user with the community. The more active users we have, the more new users we can attract to the community and create a lively community that pushes the project forwards, innovates and helps each other in an peer-to-peer manner.
 
 
-## Improve documentation
+### Improve documentation
 
 As Netdata's features grow, we need to clearly explain how each feature works and document all the possible configurations. And as Netdata's community grows, we need to improve existing documentation to make it more accessible to people of all skill levels.
 
-We also need to produce beginner-level tutorials on using Netdata to monitor production-level systems, from databases to web-servers and Kubernetes clusters. Whatever you use for production, it's a perfect case-study for Netdata!
-
-Start with the [guide for contributing to documentation](https://learn.netdata.cloud/contribute/documentation), and then review the [documentation style guide](https://learn.netdata.cloud/contribute/style-guide) for specifics on how we write our documentation.
-
-You can also your guide on our [Community Guides](https://community.netdata.cloud/c/community-guides/17) category and get initial feedback from the community and the Netdata team. Afterwards, we can work together to incorporate the guide into the main corpus of the documentation. Again, we can't commit to do that, since every piece of documentation(such as a guide) increases the cost of maintenance.
-
-For that reason, we prefer to start with the Community Forums, where people can create any guide that they feel like sharing with the rest of the Netdata Community. If we believe that the use-case has value for the broader Netdata Community (e.g it's not about an edge-case), then it is possible that we may ask you to work with us and publish it in [Netdata Learn](Https://learn.netdata.cloud), our education portal.
-
+See the [documentation contribution guidelines](https://github.com/netdata/netdata/blob/master/docs/guidelines.md) for information on how you can help. 
 
 # Developers
 
