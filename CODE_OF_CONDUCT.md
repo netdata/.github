@@ -1,6 +1,9 @@
 <!--
 title: "Netdata Community Code of Conduct"
 custom_edit_url: https://github.com/netdata/.github/edit/main/CODE_OF_CONDUCT.md
+sidebar_label: "Netdata Community Code of Conduct"
+learn_status: "Published"
+learn_rel_path: "misc"
 -->
 
 # Netdata Community Code of Conduct
