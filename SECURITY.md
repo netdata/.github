@@ -4,7 +4,7 @@ description: "The Netdata team maintains and adheres to a formal process any tim
 custom_edit_url: https://github.com/netdata/.github/edit/main/SECURITY.md
 sidebar_label: "Security Policy"
 learn_status: "Published"
-learn_rel_path: "misc"
+learn_rel_path: "Miscellaneous"
 -->
 
 # Security Policy
