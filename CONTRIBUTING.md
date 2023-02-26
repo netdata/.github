@@ -1,11 +1,4 @@
-<!--
-title: "Contributing"
-custom_edit_url: https://github.com/netdata/.github/edit/main/CONTRIBUTING.md
-sidebar_label: "Contribute"
-learn_status: "Published"
-learn_rel_path: "Contribute"
-sidebar_position: 90
--->
+# Contributing
 
 Thank you for considering contributing to Netdata.
 
@@ -244,7 +237,7 @@ To create a new alarm, we can look to:
 
 ## Code of Conduct and CLA
 
-We expect all contributors to abide by the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). For a pull request to be accepted, you will also need to accept the [Netdata contributors license agreement](CONTRIBUTORS.md), as part of the PR process.
+We expect all contributors to abide by the [Contributor Covenant Code of Conduct](https://github.com/netdata/.github/blob/main/CODE_OF_CONDUCT.md). For a pull request to be accepted, you will also need to accept the [Netdata contributors license agreement](https://cla-assistant.io/netdata/netdata), as part of the PR process.
 
 ## Performance and efficiency
 
