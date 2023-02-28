@@ -13,7 +13,10 @@ learn_rel_path: "Miscellaneous"
 
 | Version | Supported |
 |-------  | --------- |
-| Latest  | Yes       |
+| Latest stable  | Yes       |
+| Latest nightly  | Yes       |
+
+Important security fixes always result in a patch release to the latest stable.
 
 ## Reporting a Vulnerability
 
@@ -22,6 +25,10 @@ We're extremely grateful for security researchers and users that report vulnerab
 To make a report, please send an email to **security@netdata.cloud** with
 the vulnerability details and the details expected for [all Netdata bug
 reports](https://github.com/netdata/netdata/blob/master/.github/ISSUE_TEMPLATE/BUG_REPORT.yml).
+
+### Awards
+
+We reward newly reported vulnerabilities with Netdata swag. We do not offer monetary awards for vulnerability reports.
 
 ### When Should I Report a Vulnerability?
 
