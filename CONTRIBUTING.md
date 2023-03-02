@@ -174,7 +174,7 @@ The Netdata Agent has a modular approach to collecting data from data sources, m
 - Shell
 - StatsD
 
-Before you  continue, take a look at our [documentation](https://learn.netdata.cloud/docs/collect/how-collectors-work) about collectors and how they work. It will greatly help you if you have a good understanding of the general architecture, the different collectors that we have, how they are divided into different *plugins* and finally what it means that a collector is _internal_ or _external_.
+Before you  continue, take a look at our [documentation  about collectors](https://github.com/netdata/netdata/blob/master/collectors/README.md) and how they work. It will greatly help you if you have a good understanding of the general architecture, the different collectors that we have, how they are divided into different *plugins* and finally what it means that a collector is _internal_ or _external_.
 
 When deciding which framework to use, please consider our approach:
 1. **Golang** is used for all production-grade collectors and *most* of the python collectors will be migrated to Golang. We actively support, maintain and improve the Golang collectors. We are migrating to Golang for 2 reasons:
@@ -221,7 +221,7 @@ There are 2 reasons why you may want to contribute to our alarms:
 1. You want to improve the sane defaults by modifying an existing alarm or adding a new one
 2. You want to contribute a new collector. Every new collector should come with some basic alarms out-of-the-box
 
-To do both, you will need to create (or modify) alarm configuration files. Our [documentation](https://learn.netdata.cloud/docs/monitor/configure-alarms) details the process. To develop and test the alarm, you will only need an active installation of the Netdata Agent, so the developer container described above is not required.
+To do both, you will need to create (or modify) alarm configuration files. Our [documentation](https://github.com/netdata/netdata/edit/master/health/REFERENCE.md) details the process. To develop and test the alarm, you will only need an active installation of the Netdata Agent, so the developer container described above is not required.
 
 ### Contribute a new alarm notification
 
@@ -231,7 +231,7 @@ In order to modify existing ones or create new notification alarms you will need
 
 To create a new alarm, we can look to:
 - Already implemented alarms inside `alarm-notify.sh` and copy their structure
-- Use the [custom endpoint](https://learn.netdata.cloud/docs/agent/health/notifications/custom) notification as boilerplate.
+- Use the [custom endpoint](https://github.com/netdata/netdata/edit/master/health/notifications/custom/README.md) notification as boilerplate.
 
 
 ## Code of Conduct and CLA
