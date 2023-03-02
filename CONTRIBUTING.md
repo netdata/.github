@@ -195,16 +195,16 @@ To contribute a new collector (or improve an existing one):
    1. Authenticate with GitHub from inside the container
    2. Create a new branch and name it after the feature you are developing (e.g "apache-collector"). Switch to that branch.
    3. **For Python collectors:**
-      1. Follow the contribution guidelines on the [python.d](https://learn.netdata.cloud/docs/agent/collectors/python.d.plugin) documentation.
-      2. Follow the Guide we have released: [How to contribute a Python collector](https://learn.netdata.cloud/guides/python-collector)
+      1. Follow the contribution guidelines on the [python.d](https://github.com/netdata/netdata/blob/master/collectors/python.d.plugin/README.md) documentation.
+      2. Follow the Guide we have released: [How to contribute a Python collector](https://github.com/netdata/netdata/blob/master/docs/guides/python-collector.md)
    4. **For Golang collectors:**
-      1. Follow the contribution guidelines on the [go.d](https://learn.netdata.cloud/docs/agent/collectors/go.d.plugin) documentation.
-      2. Follow the Guide we have released: [How to develop a go.d collector](https://learn.netdata.cloud/docs/agent/collectors/go.d.plugin/docs/how-to-write-a-module).
+      1. Follow the contribution guidelines on the [go.d](https://github.com/netdata/go.d.plugin/blob/master/README.md) documentation.
+      2. Follow the Guide we have released: [How to develop a go.d collector](https://github.com/netdata/go.d.plugin/blob/master/docs/how-to-write-a-module.md).
    5. **For Shell/Bash**
-     1. Follow the guidelines on the [charts.d](https://learn.netdata.cloud/docs/agent/collectors/charts.d.plugin).
+     1. Follow the guidelines on the [charts.d](https://github.com/netdata/netdata/blob/master/collectors/charts.d.plugin/README.md).
    6. **For StatsD:**
       1. If you are not familiar with StatD, we have written an [introduction](https://www.netdata.cloud/blog/introduction-to-statsd/) to the protocol.
-      2. Take a look at the [reference documentation](https://learn.netdata.cloud/docs/agent/collectors/statsd.plugin) for the StatsD plugin
+      2. Take a look at the [reference documentation](https://github.com/netdata/netdata/tree/master/collectors/statsd.plugin) for the StatsD plugin
 5. Follow the PR guidelines of the respected collector and make a PR to the respected repository:
    1. [netdata/netdata](https://github.com/netdata/netdata) for Python, Shell, and C
    2. [netdata/go.d.plugin](https://github.com/netdata/go.d.plugin) for Golang
