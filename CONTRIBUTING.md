@@ -204,8 +204,7 @@ To contribute a new collector (or improve an existing one):
      1. Follow the guidelines on the [charts.d](https://learn.netdata.cloud/docs/agent/collectors/charts.d.plugin).
    6. **For StatsD:**
       1. If you are not familiar with StatD, we have written an [introduction](https://www.netdata.cloud/blog/introduction-to-statsd/) to the protocol.
-      2. Follow the Guide we have released: [[How to use any StatsD data source with Netdata](https://learn.netdata.cloud/guides/monitor/statsd)
-      3. Take a look at the [reference documentation](https://learn.netdata.cloud/docs/agent/collectors/statsd.plugin) for the StatsD plugin
+      2. Take a look at the [reference documentation](https://learn.netdata.cloud/docs/agent/collectors/statsd.plugin) for the StatsD plugin
 5. Follow the PR guidelines of the respected collector and make a PR to the respected repository:
    1. [netdata/netdata](https://github.com/netdata/netdata) for Python, Shell, and C
    2. [netdata/go.d.plugin](https://github.com/netdata/go.d.plugin) for Golang
