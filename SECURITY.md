@@ -22,7 +22,9 @@ Important security fixes always result in a patch release to the latest stable.
 
 We're extremely grateful for security researchers and users that report vulnerabilities to Netdata Open Source Community. All reports are thoroughly investigated by a set of community volunteers.
 
-To make a report, please send an email to **security@netdata.cloud** with
+For possible vulnerabilities of the **FOSS agent**, [open a draft security advisory](https://github.com/netdata/netdata/security/advisories/new).
+
+For all other reports, please send an email to **security@netdata.cloud** with
 the vulnerability details and the details expected for [all Netdata bug
 reports](https://github.com/netdata/netdata/blob/master/.github/ISSUE_TEMPLATE/BUG_REPORT.yml).
 
