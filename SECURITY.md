@@ -1,13 +1,6 @@
-<!--
-title: "Security Policy"
-description: "The Netdata team maintains and adheres to a formal process any time a member of the community reports a security vulnerability."
-custom_edit_url: https://github.com/netdata/.github/edit/main/SECURITY.md
-sidebar_label: "Security Policy"
-learn_status: "Published"
-learn_rel_path: "Miscellaneous"
--->
-
 # Security Policy
+
+This document describes how Netdata handles vulnerability reports. If you are a Netdata user, please also read our [security and privacy design](https://github.com/netdata/netdata/blob/master/docs/netdata-security.md).
 
 ## Supported Versions
 
