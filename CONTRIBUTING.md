@@ -231,7 +231,7 @@ In order to modify existing ones or create new notification alarms you will need
 
 To create a new alarm, we can look to:
 - Already implemented alarms inside `alarm-notify.sh` and copy their structure
-- Use the [custom endpoint](https://github.com/netdata/netdata/edit/master/health/notifications/custom/README.md) notification as boilerplate.
+- Use the [custom endpoint](https://github.com/netdata/netdata/blob/master/src/health/notifications/custom/README.md) notification as boilerplate.
 
 
 ## Code of Conduct and CLA
