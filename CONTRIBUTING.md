@@ -221,7 +221,7 @@ There are 2 reasons why you may want to contribute to our alarms:
 1. You want to improve the sane defaults by modifying an existing alarm or adding a new one
 2. You want to contribute a new collector. Every new collector should come with some basic alarms out-of-the-box
 
-To do both, you will need to create (or modify) alarm configuration files. Our [documentation](https://github.com/netdata/netdata/edit/master/health/REFERENCE.md) details the process. To develop and test the alarm, you will only need an active installation of the Netdata Agent, so the developer container described above is not required.
+To do both, you will need to create (or modify) alarm configuration files. Our [documentation](https://github.com/netdata/netdata/blob/master/src/health/REFERENCE.md) details the process. To develop and test the alarm, you will only need an active installation of the Netdata Agent, so the developer container described above is not required.
 
 ### Contribute a new alarm notification
 
