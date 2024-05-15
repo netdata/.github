@@ -196,7 +196,7 @@ To contribute a new collector (or improve an existing one):
    2. Create a new branch and name it after the feature you are developing (e.g "apache-collector"). Switch to that branch.
    3. **For Python collectors:**
       1. Follow the contribution guidelines on the [python.d](https://github.com/netdata/netdata/blob/master/src/collectors/python.d.plugin/README.md) documentation.
-      2. Follow the Guide we have released: [How to contribute a Python collector](https://github.com/netdata/netdata/blob/master/docs/guides/python-collector.md)
+      2. Follow the Guide we have released: [How to contribute a Python collector](https://github.com/netdata/netdata/blob/master/docs/developer-and-contributor-corner/python-collector.md)
    4. **For Golang collectors:**
       1. Follow the contribution guidelines on the [go.d](https://github.com/netdata/netdata/blob/master/src/go/collectors/go.d.plugin/README.md) documentation.
       2. Follow the Guide we have released: [How to develop a go.d collector](https://github.com/netdata/netdata/blob/master/src/go/collectors/go.d.plugin/docs/how-to-write-a-module.md).
