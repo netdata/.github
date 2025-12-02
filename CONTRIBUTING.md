@@ -34,7 +34,7 @@ The Netdata Agent has a modular approach to collecting data from data sources, m
 To contribute a new collector:
 
 - **Go**: Follow the guide [How to write a Netdata collector in Go](https://github.com/netdata/netdata/blob/master/src/go/plugin/go.d/docs/how-to-write-a-module.md).
-- **Python**: Follow the guide [How to contribute a Python collector](https://github.com/netdata/netdata/blob/master/docs/developer-and-contributor-corner/python-collector.md).
+- **Python**: Refer to the [collector's README](https://github.com/netdata/netdata/blob/master/src/collectors/python.d.plugin/README.md).
 - **Shell/Bash**: Refer to the [charts.d documentation](https://github.com/netdata/netdata/blob/master/src/collectors/charts.d.plugin/README.md).
 - **StatsD**: Unfamiliar with StatsD? We have an [intro](https://www.netdata.cloud/blog/introduction-to-statsd/) and [reference docs](https://github.com/netdata/netdata/blob/master/src/collectors/statsd.plugin/README.md).
 
