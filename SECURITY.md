@@ -1,6 +1,6 @@
 # Security Policy
 
-This document describes how Netdata handles vulnerability reports. If you are a Netdata user, please also read our [security and privacy design](https://github.com/netdata/netdata/blob/master/docs/netdata-security.md).
+This document describes how Netdata handles vulnerability reports. If you are a Netdata user, please also read our [security and privacy design](https://github.com/netdata/netdata/blob/master/docs/security-and-privacy-design/README.md).
 
 ## Supported Versions
 
